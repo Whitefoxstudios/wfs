@@ -1,0 +1,4 @@
+name = SEO
+description = Search Engine Optimization Helper Module
+package = @ White Fox
+core = 7.x

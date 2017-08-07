@@ -1,0 +1,4 @@
+name = Structured Data
+description = Provides JSON-ld Google Structured Data Snippets.
+package = @ White Fox
+core = 7.x

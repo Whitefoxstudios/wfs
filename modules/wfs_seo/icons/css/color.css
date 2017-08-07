@@ -1,0 +1,150 @@
+.social ul {
+  margin: 0 !important;
+}
+.block-wfs-seo .social li {
+  float: initial !important;
+  width: initial !important;
+  height: initial !important;
+  line-height: initial !important;
+  text-align: center !important;
+  list-style: none !important;
+  border-left: none !important;
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: none !important;
+  font-weight: 400 !important;
+}
+
+.block-wfs-seo .social li:last-child {
+  border-right: none !important;
+}
+
+.block-wfs-seo .social li a{
+  color:#fff;
+  text-decoration: none;
+  outline:none;
+  display: block;
+  font-size: 1.3125em;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  font-weight: 100 !important;
+}
+
+.xl .social li a {font-size: 1.9em}
+.lg .social li a {font-size: 1.5em;}
+.sm .social li a {font-size: 0.975em;}
+
+.circle .social li a {border-radius:100%}
+.rounded .social li a {border-radius:.25em}
+
+.naked .social li a {background:none !important}
+
+.outline .social li a {
+  border:solid .125em;
+  border-radius:100%;
+  background:none !important;
+  height: 2.125em !important;
+  width: 2.125em !important;
+  margin: 0 0.514286em 0.514286em 0 !important;
+}
+
+.padded .social li a,
+.circle .social li a,
+.rounded .social li a,
+.square .social li a {margin: 0 .714285714285714em .714285714285714em 0}
+
+.circle .social li  a {border-radius:100%}
+.rounded .social li a {border-radius:.25em}
+.square .social li  a {border-radius:0}
+
+.block-wfs-seo .social li.angies-list-color  a {background: #7fbb00}
+.block-wfs-seo .social li.facebook-color     a {background: #3b5998}
+.block-wfs-seo .social li.foursquare-color   a {background: #f94877}
+.block-wfs-seo .social li.google-plus-color  a {background: #dd4b39}
+.block-wfs-seo .social li.homeadvisor-color  a {background: #455a64}
+.block-wfs-seo .social li.houzz-color        a {background: #7ac143}
+.block-wfs-seo .social li.instagram-color    a {background: #ec0384 linear-gradient(to top right, rgba(255, 193, 7, 0.77), rgba(103, 58, 183, 0.55))}
+.block-wfs-seo .social li.linkedin-color     a {background: #007bb6}
+.block-wfs-seo .social li.pinterest-color    a {background: #cb2027}
+.block-wfs-seo .social li.porch-color        a {background: #ff9800}
+.block-wfs-seo .social li.tripadvisor-color  a {background: #589442}
+.block-wfs-seo .social li.twitter-color      a {background: #0084b4}
+.block-wfs-seo .social li.yelp-color         a {background: #c41200}
+.block-wfs-seo .social li.youtube-color      a {background: #bb0000}
+
+.block-wfs-seo .social li.angies-list-color  a:hover {background: #fff; color: #7fbb00 !important}
+.block-wfs-seo .social li.facebook-color     a:hover {background: #fff; color: #3b5998 !important}
+.block-wfs-seo .social li.foursquare-color   a:hover {background: #fff; color: #f94877 !important}
+.block-wfs-seo .social li.google-plus-color  a:hover {background: #fff; color: #dd4b39 !important}
+.block-wfs-seo .social li.homeadvisor-color  a:hover {background: #fff; color: #455a64 !important}
+.block-wfs-seo .social li.houzz-color        a:hover {background: #fff; color: #7ac143 !important}
+.block-wfs-seo .social li.instagram-color    a:hover {background: #fff; color: #ec0384 !important}
+.block-wfs-seo .social li.linkedin-color     a:hover {background: #fff; color: #007bb6 !important}
+.block-wfs-seo .social li.pinterest-color    a:hover {background: #fff; color: #cb2027 !important}
+.block-wfs-seo .social li.porch-color        a:hover {background: #fff; color: #ff9800 !important}
+.block-wfs-seo .social li.tripadvisor-color  a:hover {background: #fff; color: #589442 !important}
+.block-wfs-seo .social li.twitter-color      a:hover {background: #fff; color: #0084b4 !important}
+.block-wfs-seo .social li.yelp-color         a:hover {background: #fff; color: #c41200 !important}
+.block-wfs-seo .social li.youtube-color      a:hover {background: #fff; color: #bb0000 !important}
+
+.block-wfs-seo.inverse .social li.angies-list-color  a {background: #fff; color: #7fbb00 !important}
+.block-wfs-seo.inverse .social li.facebook-color     a {background: #fff; color: #3b5998 !important}
+.block-wfs-seo.inverse .social li.foursquare-color   a {background: #fff; color: #f94877 !important}
+.block-wfs-seo.inverse .social li.google-plus-color  a {background: #fff; color: #dd4b39 !important}
+.block-wfs-seo.inverse .social li.homeadvisor-color  a {background: #fff; color: #455a64 !important}
+.block-wfs-seo.inverse .social li.houzz-color        a {background: #fff; color: #7ac143 !important}
+.block-wfs-seo.inverse .social li.instagram-color    a {background: #fff; color: #ec0384 !important}
+.block-wfs-seo.inverse .social li.linkedin-color     a {background: #fff; color: #007bb6 !important}
+.block-wfs-seo.inverse .social li.pinterest-color    a {background: #fff; color: #cb2027 !important}
+.block-wfs-seo.inverse .social li.porch-color        a {background: #fff; color: #ff9800 !important}
+.block-wfs-seo.inverse .social li.tripadvisor-color  a {background: #fff; color: #589442 !important}
+.block-wfs-seo.inverse .social li.twitter-color      a {background: #fff; color: #0084b4 !important}
+.block-wfs-seo.inverse .social li.yelp-color         a {background: #fff; color: #c41200 !important}
+.block-wfs-seo.inverse .social li.youtube-color      a {background: #fff; color: #bb0000 !important}
+
+.block-wfs-seo.inverse .social li.angies-list-color  a:hover {color:#fff !important; background-color: #7fbb00}
+.block-wfs-seo.inverse .social li.facebook-color     a:hover {color:#fff !important; background-color: #3b5998}
+.block-wfs-seo.inverse .social li.foursquare-color   a:hover {color:#fff !important; background-color: #f94877}
+.block-wfs-seo.inverse .social li.google-plus-color  a:hover {color:#fff !important; background-color: #dd4b39}
+.block-wfs-seo.inverse .social li.homeadvisor-color  a:hover {color:#fff !important; background-color: #455a64}
+.block-wfs-seo.inverse .social li.houzz-color        a:hover {color:#fff !important; background-color: #7ac143}
+.block-wfs-seo.inverse .social li.instagram-color    a:hover {color:#fff !important; background: #ec0384 linear-gradient(to top right, rgba(255, 193, 7, 0.77), rgba(103, 58, 183, 0.55))}
+.block-wfs-seo.inverse .social li.linkedin-color     a:hover {color:#fff !important; background-color: #007bb6}
+.block-wfs-seo.inverse .social li.pinterest-color    a:hover {color:#fff !important; background-color: #cb2027}
+.block-wfs-seo.inverse .social li.porch-color        a:hover {color:#fff !important; background-color: #ff9800}
+.block-wfs-seo.inverse .social li.tripadvisor-color  a:hover {color:#fff !important; background-color: #589442}
+.block-wfs-seo.inverse .social li.twitter-color      a:hover {color:#fff !important; background-color: #0084b4}
+.block-wfs-seo.inverse .social li.yelp-color         a:hover {color:#fff !important; background-color: #c41200}
+.block-wfs-seo.inverse .social li.youtube-color      a:hover {color:#fff !important; background-color: #bb0000}
+
+.inverse .block-wfs-seo .social li.angies-list-color  a {background: #fff; color: #7fbb00 !important}
+.inverse .block-wfs-seo .social li.facebook-color     a {background: #fff; color: #3b5998 !important}
+.inverse .block-wfs-seo .social li.foursquare-color   a {background: #fff; color: #f94877 !important}
+.inverse .block-wfs-seo .social li.google-plus-color  a {background: #fff; color: #dd4b39 !important}
+.inverse .block-wfs-seo .social li.homeadvisor-color  a {background: #fff; color: #455a64 !important}
+.inverse .block-wfs-seo .social li.houzz-color        a {background: #fff; color: #7ac143 !important}
+.inverse .block-wfs-seo .social li.instagram-color    a {background: #fff; color: #ec0384 !important}
+.inverse .block-wfs-seo .social li.linkedin-color     a {background: #fff; color: #007bb6 !important}
+.inverse .block-wfs-seo .social li.pinterest-color    a {background: #fff; color: #cb2027 !important}
+.inverse .block-wfs-seo .social li.porch-color        a {background: #fff; color: #ff9800 !important}
+.inverse .block-wfs-seo .social li.tripadvisor-color  a {background: #fff; color: #589442 !important}
+.inverse .block-wfs-seo .social li.twitter-color      a {background: #fff; color: #0084b4 !important}
+.inverse .block-wfs-seo .social li.yelp-color         a {background: #fff; color: #c41200 !important}
+.inverse .block-wfs-seo .social li.youtube-color      a {background: #fff; color: #bb0000 !important}
+
+.inverse .block-wfs-seo .social li.angies-list-color  a:hover {color:#fff !important; background-color: #7fbb00}
+.inverse .block-wfs-seo .social li.facebook-color     a:hover {color:#fff !important; background-color: #3b5998}
+.inverse .block-wfs-seo .social li.foursquare-color   a:hover {color:#fff !important; background-color: #f94877}
+.inverse .block-wfs-seo .social li.google-plus-color  a:hover {color:#fff !important; background-color: #dd4b39}
+.inverse .block-wfs-seo .social li.homeadvisor-color  a:hover {color:#fff !important; background-color: #455a64}
+.inverse .block-wfs-seo .social li.houzz-color        a:hover {color:#fff !important; background-color: #7ac143}
+.inverse .block-wfs-seo .social li.instagram-color    a:hover {color:#fff !important; background: #ec0384 linear-gradient(to top right, rgba(255, 193, 7, 0.77), rgba(103, 58, 183, 0.55))}
+.inverse .block-wfs-seo .social li.linkedin-color     a:hover {color:#fff !important; background-color: #007bb6}
+.inverse .block-wfs-seo .social li.pinterest-color    a:hover {color:#fff !important; background-color: #cb2027}
+.inverse .block-wfs-seo .social li.porch-color        a:hover {color:#fff !important; background-color: #ff9800}
+.inverse .block-wfs-seo .social li.tripadvisor-color  a:hover {color:#fff !important; background-color: #589442}
+.inverse .block-wfs-seo .social li.twitter-color      a:hover {color:#fff !important; background-color: #0084b4}
+.inverse .block-wfs-seo .social li.yelp-color         a:hover {color:#fff !important; background-color: #c41200}
+.inverse .block-wfs-seo .social li.youtube-color      a:hover {color:#fff !important; background-color: #bb0000}

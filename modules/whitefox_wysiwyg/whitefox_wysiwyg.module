@@ -1,0 +1,93 @@
+<?php
+function whitefox_wysiwyg_wysiwyg_editor_settings_alter(&$settings, $context){
+  if ($context['profile']->editor == 'ckeditor'){
+    $settings['customConfig'] = base_path() . drupal_get_path('module', 'whitefox_wysiwyg') . '/whitefox_wysiwyg.config.js';
+  }
+}
+
+function whitefox_wysiwyg_menu(){
+  $items = array();
+
+  $items['whitefox_wysiwyg/upload'] = array(
+    'page callback' => 'whitefox_wysiwyg_upload',
+    'access arguments' => array('access content'),
+    'type' => MENU_CALLBACK,
+  );
+
+  return $items;
+}
+
+function whitefox_wysiwyg_upload(){
+  $me = drupal_get_path('module', 'whitefox_wysiwyg');
+
+  $upload = $_FILES['upload'];
+
+  $scheme = file_default_scheme().'://';
+
+  $types = array('gif' => 'image/gif', 'jpg' => 'image/jpeg', 'png' => 'image/png');
+
+  $errors = array('message' => false);
+
+  $max = 8000000;
+
+  if(is_array($upload)){
+    extract($upload);
+
+    $mime = new finfo(FILEINFO_MIME_TYPE);
+
+    if (!isset($error) || is_array($error)){
+      $errors['message'] = 'Invalid parameters.';
+    }
+
+    switch($error){
+      case UPLOAD_ERR_OK:
+        break;
+      case UPLOAD_ERR_NO_FILE:
+        $errors['message'] = 'No File Sent';
+      case UPLOAD_ERR_INI_SIZE:
+      case UPLOAD_ERR_FORM_SIZE:
+        $errors['message'] = 'Exceeded File Size Limit';
+      default:
+        $errors['message'] = 'Unkown Error';
+    }
+
+    if($size && $size > $max){
+      $errors['message'] = "File Must Be Less Than $max bytes";
+    }elseif(!$size || $size === 0) {
+      $errors['message'] = 'No File Size';
+    }
+
+    if($tmp_name && !array_search($mime->file($tmp_name), $types)){
+      $errors['message'] = 'Invalid File Type';
+    }
+
+    if(!$name){
+      $errors['message'] = "Couldn't get filename";
+    }
+  }
+
+  if($errors['message']){
+    whitefox_wysiwyg_json_ouput(array('error' => $errors));
+  }else{
+
+    $url = file_create_url($scheme);
+    $url = parse_url($url);
+    $path = $url['path'];
+
+    $destination = $path.$name;
+
+    move_uploaded_file($tmp_name, $_SERVER['DOCUMENT_ROOT'].$destination);
+
+    $output = array('uploaded' => 1, 'fileName' => $name, 'url' => $destination);
+
+    file_put_contents("$me/tmp-file-save-".date('U'), json_encode($output, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));
+
+    whitefox_wysiwyg_json_ouput($output);
+  }
+}
+
+function whitefox_wysiwyg_json_ouput($output){
+  header('Content-type:application/json');
+  print json_encode($output, JSON_UNESCAPED_SLASHES);
+  exit(0);
+}

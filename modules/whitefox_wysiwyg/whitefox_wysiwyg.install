@@ -1,0 +1,25 @@
+<?php
+
+function whitefox_wysiwyg_enable(){
+  cache_clear_all();
+
+  drupal_set_message('whitefox_wysiwyg enabled');
+}
+
+function whitefox_wysiwyg_disable(){
+  cache_clear_all();
+
+  drupal_set_message('whitefox_wysiwyg disabled');
+}
+
+function whitefox_wysiwyg_install(){
+  cache_clear_all();
+
+  drupal_set_message('whitefox_wysiwyg installed');
+}
+
+function whitefox_wysiwyg_uninstall(){
+  cache_clear_all();
+
+  drupal_set_message('whitefox_wysiwyg uninstalled');
+}

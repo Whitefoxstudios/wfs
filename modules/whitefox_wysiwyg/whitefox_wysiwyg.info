@@ -1,0 +1,4 @@
+name = @ White Fox WYSIWYG
+description = Proprietary White Fox CKEditor Config Module with upload helpers.
+package = @ White Fox
+core = 7.x

@@ -1,0 +1,27 @@
+<?php
+function wfs_menu() {
+  $items['admin/whitefox'] = array(
+    'title' => 'White Fox Studios',
+    'description' => 'White Fox Studios Main Menu.',
+    'access arguments' => array('create content'),
+  );
+
+  $items['admin/whitefox/ux'] = array(
+    'title' => 'UX Settings',
+    'description' => 'Configure settings associated with White Fox Studios User Experience.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('wfs_admin_settings_form', NULL),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'wfs.settings.inc',
+  );
+
+  return $items;
+}
+
+function wfs_page_build(&$page){
+  $path = drupal_get_path("module", "wfs");
+
+  drupal_add_css("$path/css/whitefox.css");
+
+  drupal_add_js("$path/js/whitefox.js", array("scope"=>"footer", "weight"=>5000, "every_page"=>TRUE));
+}

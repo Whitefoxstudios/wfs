@@ -1,0 +1,7 @@
+name = Shortcodes
+description = Provides Block and View Shortcodes (so-far)
+package = @ White Fox                                                       
+core = 7.x
+
+dependencies[] = filter
+dependencies[] = shortcode

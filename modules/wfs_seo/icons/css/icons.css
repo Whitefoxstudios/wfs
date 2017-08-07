@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'wf';
+  src: url('../font/wf.eot?1364719');
+  src: url('../font/wf.eot?1364719#iefix') format('embedded-opentype'),
+       url('../font/wf.woff2?1364719') format('woff2'),
+       url('../font/wf.woff?1364719') format('woff'),
+       url('../font/wf.ttf?1364719') format('truetype'),
+       url('../font/wf.svg?1364719#wf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wf {
+  display: inline-block;
+  font: normal normal normal 14px/1 wf;
+  font-family:wf !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* makes the font 33% larger relative to the icon container */
+.wf-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.wf-2x {
+  font-size: 2em;
+}
+.wf-3x {
+  font-size: 3em;
+}
+.wf-4x {
+  font-size: 4em;
+}
+.wf-5x {
+  font-size: 5em;
+}
+.wf-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.wf-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.wf-ul > li {
+  position: relative;
+}
+.wf-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.wf-li.wf-lg {
+  left: -1.85714286em;
+}
+.wf-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.wf-pull-left {
+  float: left;
+}
+.wf-pull-right {
+  float: right;
+}
+.wf.wf-pull-left {
+  margin-right: .3em;
+}
+.wf.wf-pull-right {
+  margin-left: .3em;
+}
+.wf.pull-left {
+  margin-right: .3em;
+}
+.wf.pull-right {
+  margin-left: .3em;
+}
+.wf-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+.wf-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.wf-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.wf-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.wf-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.wf-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.wf-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .wf-rotate-90,
+:root .wf-rotate-180,
+:root .wf-rotate-270,
+:root .wf-flip-horizontal,
+:root .wf-flip-vertical {
+  filter: none;
+}
+.wf-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.wf-stack-1x,
+.wf-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.wf-stack-1x {
+  line-height: inherit;
+}
+.wf-stack-2x {
+  font-size: 2em;
+}
+.wf-inverse {
+  color: #ffffff;
+}
+
+.wf-angies-list:before { content: '\e806'}
+.wf-facebook:before { content: '\e807'}
+.wf-foursquare:before { content: '\e800'}
+.wf-google-plus:before { content: '\e808'}
+.wf-homeadvisor:before { content: '\e805'}
+.wf-houzz:before { content: '\e801'}
+.wf-instagram:before { content: '\e809'}
+.wf-linkedin:before { content: '\e80a'}
+.wf-pinterest:before { content: '\e80b'}
+.wf-porch:before { content: '\e802'}
+.wf-tripadvisor:before { content: '\e80c'}
+.wf-twitter:before { content: '\e803'}
+.wf-yelp:before { content: '\e80d'}
+.wf-youtube:before { content: '\e804'}
