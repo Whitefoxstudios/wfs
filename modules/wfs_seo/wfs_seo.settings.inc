@@ -21,6 +21,9 @@ function wfs_seo_company_info_form(){
     'yelp'        => variable_get($pre.'yelp',        FALSE),
     'tripadvisor' => variable_get($pre.'tripadvisor', FALSE),
     'foursquare'  => variable_get($pre.'foursquare',  FALSE),
+    'blogger'     => variable_get($pre.'blogger',     FALSE),
+    'tumblr'      => variable_get($pre.'tumblr',      FALSE),
+    'wordpress'   => variable_get($pre.'wordpress',   FALSE),
   );
 
   $vars += $social;

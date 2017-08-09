@@ -27,6 +27,9 @@ function wfs_seo_block_configure($delta = ''){
         'yelp'        => variable_get('wfs_seo_yelp',        FALSE),
         'tripadvisor' => variable_get('wfs_seo_tripadvisor', FALSE),
         'foursquare'  => variable_get('wfs_seo_foursquare',  FALSE),
+        'blogger'     => variable_get('wfs_seo_blogger',     FALSE),
+        'tumblr'      => variable_get('wfs_seo_tumblr',      FALSE),
+        'wordpress'   => variable_get('wfs_seo_wordpress',   FALSE),
       );
 
       $pre = 'wfs_seo_social_block_';
@@ -266,6 +269,9 @@ function wfs_seo_block_save($delta = '', $edit = array()){
         'yelp',
         'tripadvisor',
         'foursquare',
+        'blogger',
+        'tumblr',
+        'wordpress',
       );
 
       foreach($social as $val){

@@ -25,6 +25,9 @@ function wfs_seo_vars(){
     'yelp'        => variable_get('wfs_seo_yelp',        FALSE),
     'tripadvisor' => variable_get('wfs_seo_tripadvisor', FALSE),
     'foursquare'  => variable_get('wfs_seo_foursquare',  FALSE),
+    'blogger'     => variable_get('wfs_seo_blogger',     FALSE),
+    'tumblr'      => variable_get('wfs_seo_tumblr',      FALSE),
+    'wordpress'   => variable_get('wfs_seo_wordpress',   FALSE),
   );
 
   foreach($social as $url){
@@ -208,6 +211,9 @@ function wfs_seo_variables(){
     'yelp'        => variable_get('wfs_seo_yelp',        FALSE),
     'tripadvisor' => variable_get('wfs_seo_tripadvisor', FALSE),
     'foursquare'  => variable_get('wfs_seo_foursquare',  FALSE),
+    'blogger'     => variable_get('wfs_seo_blogger',     FALSE),
+    'tumblr'      => variable_get('wfs_seo_tumblr',      FALSE),
+    'wordpress'   => variable_get('wfs_seo_wordpress',   FALSE),
   );
 
   $vars += $social;

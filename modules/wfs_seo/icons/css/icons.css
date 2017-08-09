@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'wf';
-  src: url('../font/wf.eot?1364719');
-  src: url('../font/wf.eot?1364719#iefix') format('embedded-opentype'),
-       url('../font/wf.woff2?1364719') format('woff2'),
-       url('../font/wf.woff?1364719') format('woff'),
-       url('../font/wf.ttf?1364719') format('truetype'),
-       url('../font/wf.svg?1364719#wf') format('svg');
+  src: url('../font/wf.eot?7221237');
+  src: url('../font/wf.eot?7221237#iefix') format('embedded-opentype'),
+       url('../font/wf.woff2?7221237') format('woff2'),
+       url('../font/wf.woff?7221237') format('woff'),
+       url('../font/wf.ttf?7221237') format('truetype'),
+       url('../font/wf.svg?7221237#wf') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -172,17 +172,20 @@
   color: #ffffff;
 }
 
-.wf-angies-list:before { content: '\e806'}
-.wf-facebook:before { content: '\e807'}
-.wf-foursquare:before { content: '\e800'}
-.wf-google-plus:before { content: '\e808'}
-.wf-homeadvisor:before { content: '\e805'}
-.wf-houzz:before { content: '\e801'}
-.wf-instagram:before { content: '\e809'}
-.wf-linkedin:before { content: '\e80a'}
-.wf-pinterest:before { content: '\e80b'}
-.wf-porch:before { content: '\e802'}
-.wf-tripadvisor:before { content: '\e80c'}
-.wf-twitter:before { content: '\e803'}
-.wf-yelp:before { content: '\e80d'}
-.wf-youtube:before { content: '\e804'}
+.wf-foursquare:before { content: '\e800'; } /* '' */
+.wf-houzz:before { content: '\e801'; } /* '' */
+.wf-porch:before { content: '\e802'; } /* '' */
+.wf-twitter:before { content: '\e803'; } /* '' */
+.wf-youtube:before { content: '\e804'; } /* '' */
+.wf-homeadvisor:before { content: '\e805'; } /* '' */
+.wf-angies-list:before { content: '\e806'; } /* '' */
+.wf-facebook:before { content: '\e807'; } /* '' */
+.wf-google-plus:before { content: '\e808'; } /* '' */
+.wf-instagram:before { content: '\e809'; } /* '' */
+.wf-linkedin:before { content: '\e80a'; } /* '' */
+.wf-pinterest:before { content: '\e80b'; } /* '' */
+.wf-tripadvisor:before { content: '\e80c'; } /* '' */
+.wf-yelp:before { content: '\e80d'; } /* '' */
+.wf-blogger:before { content: '\e80e'; } /* '' */
+.wf-tumblr:before { content: '\f173'; } /* '' */
+.wf-wordpress:before { content: '\f19a'; } /* '' */
