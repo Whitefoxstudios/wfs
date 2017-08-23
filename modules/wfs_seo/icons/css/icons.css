@@ -12,9 +12,13 @@
 
 .wf {
   display: inline-block;
-  font: normal normal normal 14px/1 wf;
+  font: normal normal normal 16px/1 wf;
   font-family:wf !important;
   font-size: inherit;
+  font-variant: normal;
+  text-transform: none;
+  font-style: normal;
+  font-weight: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -187,5 +191,6 @@
 .wf-tripadvisor:before { content: '\e80c'; } /* '' */
 .wf-yelp:before { content: '\e80d'; } /* '' */
 .wf-blogger:before { content: '\e80e'; } /* '' */
+.wf-flickr:before { content: '\e80f'; } /* '' */
 .wf-tumblr:before { content: '\f173'; } /* '' */
 .wf-wordpress:before { content: '\f19a'; } /* '' */

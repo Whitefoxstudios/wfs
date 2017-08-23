@@ -30,6 +30,7 @@ function wfs_seo_block_configure($delta = ''){
         'blogger'     => variable_get('wfs_seo_blogger',     FALSE),
         'tumblr'      => variable_get('wfs_seo_tumblr',      FALSE),
         'wordpress'   => variable_get('wfs_seo_wordpress',   FALSE),
+        'flickr'      => variable_get('wfs_seo_flickr',   FALSE),
       );
 
       $pre = 'wfs_seo_social_block_';
@@ -272,6 +273,7 @@ function wfs_seo_block_save($delta = '', $edit = array()){
         'blogger',
         'tumblr',
         'wordpress',
+        'flickr',
       );
 
       foreach($social as $val){

@@ -19,6 +19,7 @@
         'blogger'     => variable_get('wfs_seo_blogger',     FALSE),
         'tumblr'      => variable_get('wfs_seo_tumblr',      FALSE),
         'wordpress'   => variable_get('wfs_seo_wordpress',   FALSE),
+        'flickr'      => variable_get('wfs_seo_flickr',   FALSE),
       );
 
       $pre = 'wfs_seo_social_block_';

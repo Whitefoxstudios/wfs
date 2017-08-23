@@ -76,6 +76,7 @@
 .block-wfs-seo .social li.blogger-color      a {background: #fb8f3d}
 .block-wfs-seo .social li.tumblr-color       a {background: #34526f}
 .block-wfs-seo .social li.wordpress-color    a {background: #21759b}
+.block-wfs-seo .social li.flickr-color       a {background: #fc329b}
 
 .block-wfs-seo .social li.angies-list-color  a:hover {background: #fff; color: #7fbb00 !important}
 .block-wfs-seo .social li.facebook-color     a:hover {background: #fff; color: #3b5998 !important}
@@ -94,6 +95,7 @@
 .block-wfs-seo .social li.blogger-color      a:hover {background: #fff; color: #fb8f3d !important}
 .block-wfs-seo .social li.tumblr-color       a:hover {background: #fff; color: #34526f !important}
 .block-wfs-seo .social li.wordpress-color    a:hover {background: #fff; color: #21759b !important}
+.block-wfs-seo .social li.flickr-color       a:hover {background: #fff; color: #fc329b !important}
 
 .block-wfs-seo.inverse .social li.angies-list-color  a {background: #fff; color: #7fbb00 !important}
 .block-wfs-seo.inverse .social li.facebook-color     a {background: #fff; color: #3b5998 !important}
@@ -112,6 +114,7 @@
 .block-wfs-seo.inverse .social li.blogger-color      a {background: #fff; color: #fb8f3d !important}
 .block-wfs-seo.inverse .social li.tumblr-color       a {background: #fff; color: #34526f !important}
 .block-wfs-seo.inverse .social li.wordpress-color    a {background: #fff; color: #21759b !important}
+.block-wfs-seo.inverse .social li.flickr-color       a {background: #fff; color: #fc329b !important}
 
 .block-wfs-seo.inverse .social li.angies-list-color  a:hover {color:#fff !important; background-color: #7fbb00}
 .block-wfs-seo.inverse .social li.facebook-color     a:hover {color:#fff !important; background-color: #3b5998}
@@ -130,6 +133,7 @@
 .block-wfs-seo.inverse .social li.blogger-color      a:hover {color:#fff !important; background-color: #fb8f3d}
 .block-wfs-seo.inverse .social li.tumblr-color       a:hover {color:#fff !important; background-color: #34526f}
 .block-wfs-seo.inverse .social li.wordpress-color    a:hover {color:#fff !important; background-color: #21759b}
+.block-wfs-seo.inverse .social li.flickr-color       a:hover {color:#fff !important; background-color: #fc329b}
 
 .inverse .block-wfs-seo .social li.angies-list-color  a {background: #fff; color: #7fbb00 !important}
 .inverse .block-wfs-seo .social li.facebook-color     a {background: #fff; color: #3b5998 !important}
@@ -148,6 +152,7 @@
 .inverse .block-wfs-seo .social li.blogger-color      a {background: #fff; color: #fb8f3d !important}
 .inverse .block-wfs-seo .social li.tumblr-color       a {background: #fff; color: #34526f !important}
 .inverse .block-wfs-seo .social li.wordpress-color    a {background: #fff; color: #21759b !important}
+.inverse .block-wfs-seo .social li.flickr-color       a {background: #fff; color: #fc329b !important}
 
 .inverse .block-wfs-seo .social li.angies-list-color  a:hover {color:#fff !important; background-color: #7fbb00}
 .inverse .block-wfs-seo .social li.facebook-color     a:hover {color:#fff !important; background-color: #3b5998}
@@ -166,3 +171,4 @@
 .inverse .block-wfs-seo .social li.blogger-color      a:hover {color:#fff !important; background-color: #fb8f3d}
 .inverse .block-wfs-seo .social li.tumblr-color       a:hover {color:#fff !important; background-color: #34526f}
 .inverse .block-wfs-seo .social li.wordpress-color    a:hover {color:#fff !important; background-color: #21759b}
+.inverse .block-wfs-seo .social li.flickr-color       a:hover {color:#fff !important; background-color: #fc329b}

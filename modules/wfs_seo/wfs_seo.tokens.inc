@@ -31,6 +31,7 @@ function wfs_seo_token_info(){
     'blogger'     => variable_get('wfs_seo_blogger',     FALSE),
     'tumblr'      => variable_get('wfs_seo_tumblr',      FALSE),
     'wordpress'   => variable_get('wfs_seo_wordpress',   FALSE),
+    'flickr'      => variable_get('wfs_seo_flickr',   FALSE),
   );
 
   $vars += $social;
@@ -74,6 +75,7 @@ function wfs_seo_tokens($type, $tokens, array $data = array(), array $options = 
     'blogger'     => variable_get('wfs_seo_blogger',     FALSE),
     'tumblr'      => variable_get('wfs_seo_tumblr',      FALSE),
     'wordpress'   => variable_get('wfs_seo_wordpress',   FALSE),
+    'flickr'      => variable_get('wfs_seo_flickr',      FALSE),
   );
 
   $vars += $social;

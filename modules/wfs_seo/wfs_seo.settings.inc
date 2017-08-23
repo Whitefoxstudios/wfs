@@ -24,6 +24,7 @@ function wfs_seo_company_info_form(){
     'blogger'     => variable_get($pre.'blogger',     FALSE),
     'tumblr'      => variable_get($pre.'tumblr',      FALSE),
     'wordpress'   => variable_get($pre.'wordpress',   FALSE),
+    'flickr'      => variable_get($pre.'flickr',   FALSE),
   );
 
   $vars += $social;
