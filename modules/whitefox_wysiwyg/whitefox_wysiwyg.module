@@ -80,7 +80,7 @@ function whitefox_wysiwyg_upload(){
 
     $output = array('uploaded' => 1, 'fileName' => $name, 'url' => $destination);
 
-    file_put_contents("$me/tmp-file-save-".date('U'), json_encode($output, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));
+    //file_put_contents("$me/tmp-file-save-".date('U'), json_encode($output, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));
 
     whitefox_wysiwyg_json_ouput($output);
   }
