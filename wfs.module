@@ -8,3 +8,12 @@ function wfs_menu() {
 
   return $items;
 }
+
+function wfs_preprocess_html() {
+  drupal_add_js('https://whitefoxstudios.net/goals.js', array(
+    'type'   => 'external',
+    'scope'  => 'footer',
+    'defer'  => TRUE,
+    'weight' => 999999
+  ));
+}
