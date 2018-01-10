@@ -1,0 +1,42 @@
+#block-system-main .content form {
+  background: white;
+  padding: 30px;
+  display: inline-block;
+  text-align: left;
+  position:relative;
+  margin: 30px 0;
+  border: solid 1px #e8e8e8;
+  border-radius: 8px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
+  max-width: 320px;
+  box-sizing: border-box;
+}
+
+#block-system-main .content form [type=text],[type=password] {
+  line-height: 42px;
+  height: 42px;
+  padding: 0 15px;
+  margin: 0;
+  font-size: 21px;
+  width:100% !important;
+}
+
+#block-system-main .content form .form-actions [type=submit] {
+  padding: 0 15px;
+  height: 42px;
+  line-height: 42px;
+}
+
+#block-system-main .content form .form-actions {
+  position: relative;
+  background: transparent none;
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+#block-system-main .content {
+  text-align: center;
+}

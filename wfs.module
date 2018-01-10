@@ -18,6 +18,12 @@ function wfs_preprocess_html(){
   ));
 }
 
+function wfs_page_build(){
+  if(preg_match('/user/', current_path())){
+    drupal_add_css(drupal_get_path('module', 'wfs').'/user.css');
+  }
+}
+
 function wfs_custom_theme(){
   if(arg(0) == 'user'){
     return variable_get('admin_theme', 'adminimal_theme');
