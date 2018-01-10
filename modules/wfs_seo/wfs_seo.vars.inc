@@ -95,12 +95,35 @@ function wfs_seo_vars(){
 
       "logo" => variable_get($pre."logo", $logo_url),
 
+      "image" => variable_get($pre."image", $logo_url),
+
+      "priceRange" => variable_get($pre."priceRange", '$'),
+
       "sameas" => $sameas
     ),
   );
 
+  $sdata = $vars["company"];
+
+  $dow = array(
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  );
+
+  foreach($dow as $day){
+    $sdata["open$day"] = false;
+    $sdata["close$day"] = false;
+  }
+
+  $sdata = array_filter($sdata);
+
   $variables = array(
-    "wfs_seo_company_json" => json_encode($vars["company"], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES),
+    "wfs_seo_company_json" => json_encode($sdata, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES),
   );
 
   foreach($vars["company"] as $key => $val){
